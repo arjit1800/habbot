@@ -1,9 +1,15 @@
+@import url('../../assets/css/variable.css');
+
 .navbar .nav-link{
-    color: #6D6E71;
+    color: var(--color-grey);
 }
 
 .navbar .nav-link .arrow-down-icon{
     font-size: 12px;
     margin-left: 1px;
     margin-top: -2px;
+}
+
+.navbar .login-btn{
+    padding: 10px 30px;
 }

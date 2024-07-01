@@ -1,0 +1,25 @@
+@import url("../../assets/css/variable.css");
+
+.search-panel{
+    margin-top: 30px;
+}
+
+.search-panel .form-group .input-icon{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-orange);
+    font-size: 20px;
+}
+
+.search-panel .form-group input{
+    padding: 10px;
+    padding-left: 40px;
+    min-width: 400px;
+    box-shadow: none;
+}
+
+.search-panel button{
+    padding: 10px;
+}

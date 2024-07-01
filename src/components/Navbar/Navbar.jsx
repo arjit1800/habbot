@@ -1,9 +1,8 @@
-import './Navbar.css';
 import { FaChevronDown } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
-      <nav className="navbar navbar-expand-lg bg-body-dark">
+      <nav className="navbar navbar-expand-lg bg-body-dark py-3">
         <div className="container-xxl">
           <a className="navbar-brand" href="#">
             <img src="images/logo.png" alt="habbot logo" className="img-fluid" width={"180px"}/>
@@ -27,7 +26,7 @@ const Navbar = () => {
               <a className="nav-link" href="#">
                 Find Service Tags <FaChevronDown className='arrow-down-icon'/>
               </a>
-              <a href="" className="btn btn-outline-success fw-medium ms-lg-2">Login/SignUp</a>
+              <a href="" className="btn btn-outline-success fw-medium ms-lg-2 login-btn">Login/SignUp</a>
             </div>
           </div>
         </div>
