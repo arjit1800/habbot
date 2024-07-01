@@ -1,3 +1,4 @@
+import './Navbar.css';
 import { FaChevronDown } from "react-icons/fa6";
 
 const Navbar = () => {
@@ -20,11 +21,11 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#">
                 Find Suppliers
               </a>
               <a className="nav-link" href="#">
-                Find Service Tags <FaChevronDown />
+                Find Service Tags <FaChevronDown className='arrow-down-icon'/>
               </a>
               <a href="" className="btn btn-outline-success fw-medium ms-lg-2">Login/SignUp</a>
             </div>
