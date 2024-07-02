@@ -1,0 +1,45 @@
+@import url('../../assets/css/variable.css');
+
+footer{
+    background-color: var(--color-bg-dark);
+    padding: 40px 0px;
+}
+
+footer .footer-border{
+    border-top: 1px solid var(--color-light);
+    border-bottom: 1px solid var(--color-light);
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-weight: 300;
+    color: var(--color-light);
+}
+
+footer ul li a:hover{
+    color: var(--color-white);
+}
+
+footer .social-links{
+    gap: 10px;
+}
+
+footer .social-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--color-light);
+    color: var(--color-white);
+}
+
+footer .social-links a:hover{
+    border-color: var(--color-white);
+}

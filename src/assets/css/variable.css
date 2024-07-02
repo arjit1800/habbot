@@ -2,6 +2,7 @@
     
     --color-black: #000;
     --color-white: #fff;
+    --color-light: #ffffff5f;
     --color-gray: #6D6E71;
     --color-orange: #E7770D;
     --color-orange-2: #EB7150;
@@ -9,6 +10,7 @@
     --color-blue-bg: #072F57;
     --color-red: #F61C0D;
     --color-light-bg: #E8FBFF;
+    --color-bg-dark: #123557;
 
     --hero-linear: linear-gradient(356deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%),
     linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45));

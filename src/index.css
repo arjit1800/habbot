@@ -7,6 +7,7 @@
 @import url('./components/BannerTabs/BannerTabs.css');
 @import url('./components/Contact/Contact.css');
 @import url('./components/Works/Works.css');
+@import url('./components/Footer/Footer.css');
 
 body{
     margin: 0;
