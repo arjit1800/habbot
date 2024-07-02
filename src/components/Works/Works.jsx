@@ -54,7 +54,7 @@ const Works = () => {
         <div className="row mt-5">
           {cards.map((card) => {
             return (
-              <div className="col-lg-4 p-0 m-0">
+              <div className="col-md-4 col-sm-6 p-0 m-0">
                 <WorkCard card={card} key={card.id} />
               </div>
             );

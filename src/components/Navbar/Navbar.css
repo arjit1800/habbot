@@ -1,7 +1,15 @@
 @import url('../../assets/css/variable.css');
 
+.navbar{
+    background-color: var(--color-white);
+}
+
 .navbar .nav-link{
     color: var(--color-grey);
+}
+
+.navbar .navbar-toggler{
+    box-shadow: none !important;
 }
 
 .navbar .nav-link .arrow-down-icon{
@@ -12,4 +20,5 @@
 
 .navbar .login-btn{
     padding: 10px 30px;
+    width: 190px;
 }

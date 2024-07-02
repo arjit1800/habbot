@@ -19,3 +19,23 @@ body{
 .section-padding{
     padding: 60px 0px;
 }
+
+/* common reponsive css */
+
+@media screen and (max-width: 576px){
+    h1{
+        font-size: 40px !important;
+    }
+
+    h2{
+        font-size: 30px !important;
+    }
+
+    p{
+        font-size: 14px !important;
+    }
+
+    .footer-logo,.logo{
+        max-width: 140px !important;
+    }
+}

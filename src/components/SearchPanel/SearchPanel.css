@@ -2,6 +2,7 @@
 
 .search-panel{
     margin-top: 30px;
+    width: 100%;
 }
 
 .search-panel .form-group .input-icon{
@@ -26,7 +27,13 @@
 
 @media screen and (max-width: 992px){
     .search-panel .form-group input{
-        min-width: none;
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .search-panel .form-group input{
+        min-width: unset;
         width: 100%;
     }
 

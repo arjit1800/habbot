@@ -5,7 +5,7 @@ const About = () => {
     <section className="about-section section-padding">
       <div className="container-xxl">
         <div className="row gy-4">
-          <div className="col-lg-6 col-md-12">
+          <div className="col-md-6">
             <div className="pe-lg-5">
               <h2 className="fw-bold">
                 Ready to dive into <span>Habot?</span>
@@ -23,7 +23,7 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="col-lg-6 col-md-12">
+          <div className="col-md-6">
             <div className="blocks">
               <div className="block">
                 <span>Abu Dhabi</span>

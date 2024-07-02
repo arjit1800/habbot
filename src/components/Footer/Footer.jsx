@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container-xxl footer-border py-3">
             <div className="row gy-4">
                 <div className="col-md-2">
-                    <img src="images/footer-logo.png" alt="" className="img-fluid mt-3" width={"200px"}/>
+                    <img src="images/footer-logo.png" alt="" className="img-fluid mt-3 footer-logo" width={"200px"}/>
                     <p className="text-white fw-light ms-3 mt-2">&copy; R Singhania</p>
                 </div>
                 <div className="col-md-2">
@@ -35,7 +35,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="col-md-4">
-                    <div className="w-100 h-100 d-flex justify-content-end align-items-center">
+                    <div className="w-100 h-100 d-flex justify-content-md-end align-items-center">
                     <div className="social-links d-flex align-items-center">
                         <a href=""><FaLinkedinIn /></a>
                         <a href=""><FaTwitter /></a>

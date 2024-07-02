@@ -2,10 +2,10 @@ import { FaChevronDown } from "react-icons/fa6";
 
 const Navbar = () => {
     return (
-      <nav className="navbar navbar-expand-lg bg-body-dark py-3">
+      <nav className="navbar navbar-expand-lg bg-body-dark py-3 fixed-top shadow-sm">
         <div className="container-xxl">
           <a className="navbar-brand" href="#">
-            <img src="images/logo.png" alt="habbot logo" className="img-fluid" width={"180px"}/>
+            <img src="images/logo.png" alt="habbot logo" className="img-fluid logo" width={"180px"}/>
           </a>
           <button
             className="navbar-toggler"

@@ -1,11 +1,12 @@
 @import url("../../assets/css/variable.css");
 
 .hero-section{
+    margin-top: 72px;
     height: 600px;
     background: var(--hero-linear), url("images/hero.png") center no-repeat;
     background-size: cover;
 }
 
-.hero-section h2{
+.hero-section h1{
     font-size: 55px;
 }

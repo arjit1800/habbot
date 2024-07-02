@@ -1,4 +1,4 @@
-import { FaCheckCircle } from "react-icons/fa";
+import { IoMdCheckmarkCircle } from "react-icons/io";
 
 const BannerTabs = () => {
   return (
@@ -42,15 +42,15 @@ const BannerTabs = () => {
           tabindex="0"
         >
           <div className="point d-flex align-items-center">
-          <FaCheckCircle className="text-success check-icon"/> 
+          <IoMdCheckmarkCircle className="text-success check-icon"/> 
           <p className="text-white">Post you requirements</p>
           </div>
           <div className="point d-flex align-items-center">
-          <FaCheckCircle className="text-success check-icon"/> 
+          <IoMdCheckmarkCircle className="text-success check-icon"/> 
           <p className="text-white">Sit back for multiple suppliers to contact you</p>
           </div>
           <div className="point d-flex align-items-center">
-          <FaCheckCircle className="text-success check-icon"/> 
+          <IoMdCheckmarkCircle className="text-success check-icon"/> 
           <p className="text-white">Choose among the suppliers based among the ratings and reviews</p>
           </div>
         </div>
@@ -62,15 +62,15 @@ const BannerTabs = () => {
           tabindex="0"
         >
           <div className="point d-flex align-items-center">
-          <FaCheckCircle className="text-success check-icon"/> 
+          <IoMdCheckmarkCircle className="text-success check-icon"/> 
           <p className="text-white">Sit back for multiple suppliers to contact you</p>
           </div>
           <div className="point d-flex align-items-center">
-          <FaCheckCircle className="text-success check-icon"/> 
+          <IoMdCheckmarkCircle className="text-success check-icon"/> 
           <p className="text-white">Choose among the suppliers based among the ratings and reviews</p>
           </div>
           <div className="point d-flex align-items-center">
-          <FaCheckCircle className="text-success check-icon"/> 
+          <IoMdCheckmarkCircle className="text-success check-icon"/> 
           <p className="text-white">Post you requirements</p>
           </div>
         </div>

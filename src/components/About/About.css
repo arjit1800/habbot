@@ -27,3 +27,17 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 992px){
+    .about-section .blocks .block{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .about-section .blocks .block{
+        width: 150px;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
