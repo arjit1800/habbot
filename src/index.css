@@ -4,6 +4,8 @@
 @import url('./components/SearchPanel/SearchPanel.css');
 @import url('./components/About/About.css');
 @import url('./components/Video-Banner/VideoBanner.css');
+@import url('./components/BannerTabs/BannerTabs.css');
+@import url('./components/Contact/Contact.css');
 
 body{
     margin: 0;
