@@ -23,3 +23,14 @@
 .search-panel button{
     padding: 10px;
 }
+
+@media screen and (max-width: 992px){
+    .search-panel .form-group input{
+        min-width: none;
+        width: 100%;
+    }
+
+    .search-panel button{
+        width: 100%;
+    }
+}

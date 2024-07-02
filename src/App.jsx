@@ -3,6 +3,7 @@ import Contact from "./components/Contact/Contact"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
 import VideoBanner from "./components/Video-Banner/VideoBanner"
+import Works from "./components/Works/Works"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <About />
     <VideoBanner />
     <Contact />
+    <Works />
     </>
   )
 }

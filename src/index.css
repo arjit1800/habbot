@@ -6,6 +6,7 @@
 @import url('./components/Video-Banner/VideoBanner.css');
 @import url('./components/BannerTabs/BannerTabs.css');
 @import url('./components/Contact/Contact.css');
+@import url('./components/Works/Works.css');
 
 body{
     margin: 0;

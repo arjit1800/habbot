@@ -1,0 +1,15 @@
+@import url('../../assets/css/variable.css');
+
+.work-card{
+    padding: 60px;
+    min-height: 285px;
+}
+
+.work-card.dark{
+    background-color: var(--color-light-bg);
+}
+
+.work-card img{
+    width: 75px;
+    height: 75px;
+}
