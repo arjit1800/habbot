@@ -3,7 +3,7 @@
 @import url('./components/Hero/Hero.css');
 @import url('./components/SearchPanel/SearchPanel.css');
 @import url('./components/About/About.css');
-
+@import url('./components/Video-Banner/VideoBanner.css');
 
 body{
     margin: 0;
